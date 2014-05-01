@@ -1,0 +1,2 @@
+module RubycampHelper
+end

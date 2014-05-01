@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ruby Camp</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class='body'>
+    <div class="header">
+        <div id="navigation-links">
+		   <%= render 'layouts/header' %>
+		</div>
+    </div>
+    <div class="content">
+    	<%= yield %>
+    </div>
+    <div class="footer">
+    	<div id="footer-links">		
+		    <%= render 'layouts/footer' %>
+		</div>
+		<div class="clear"></div>
+    </div>
+  </div>
+</body>
+</html>

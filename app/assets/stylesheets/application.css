@@ -1,0 +1,100 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+ 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+  margin:0;
+  padding:0;
+}
+
+body   {
+  font-family: Tahoma;
+  font-size: 12px;
+  color: #000000;
+  padding: 86px 0px 144px 0px;
+  margin: 15px;
+  background-color:#ffffff;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  text-align:center;
+  background-color: #EFEFEF;
+}
+
+#navigation-links{
+  list-style: none outside none;
+  margin: 10px 40px 10px 10px;
+  top: 0;
+  color: #F15051;
+}
+
+.header-list-link {
+	color: #333;
+	font-size: 2em;
+	font-family: helvetica;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.header-list-link:hover {
+	text-decoration: underline;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  padding-top: 10px;
+  font-size: 15px;
+  background-color: #EFEFEF;
+  color: #DD4814;
+}
+
+.footer a {
+  color: #07A0C6;
+}
+
+.footer-links { 
+  margin:0;
+  padding:0;
+}
+
+.content{ 
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 768px;
+}
+
+.content h1{
+	font-size: 28px;
+	padding-bottom: 4px;
+	width: 100%;
+	border-bottom : solid 3px #e0186f;
+}
+
+.content p{
+	padding-top: 4px;
+	padding-bottom: 20px;
+	text-align: justify;
+}
