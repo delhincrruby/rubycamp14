@@ -32,8 +32,9 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  database: rubycamp_production
+  host: 172.16.2.167
+  port: 39166
+  database: rubycamp
   pool: 5
-  username: root
-  password:
-  socket: /var/run/mysqld/mysqld.sock
+  username: at8zsch8ctmbl7ja
+  password: afhvvtqswzebj9ew9cn3tbmvxvno6r8y
