@@ -1,4 +1,6 @@
 Rubycamp::Application.routes.draw do
+  resources :registrations
+
   get "rubycamp/home"
   get "rubycamp/about"
   get "rubycamp/schedule"

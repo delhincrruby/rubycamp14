@@ -1,0 +1,28 @@
+<h1>Listing registrations</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Tickets</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @registrations.each do |registration| %>
+      <tr>
+        <td><%= registration.name %></td>
+        <td><%= registration.email %></td>
+        <td><%= registration.tickets %></td>
+        <td><%= link_to 'Show', registration %></td>
+        td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
