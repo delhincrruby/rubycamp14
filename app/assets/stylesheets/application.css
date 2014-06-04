@@ -135,7 +135,7 @@ input {
 }
 
 select {
-  width: 304px;
+  width: 304px;EC1622
   height: 38px;
 }
 
@@ -194,4 +194,45 @@ label {
 .btn_onward:active {
   position:relative;
   top:1px;
+}
+
+#powered_by {
+  float: left;
+  margin-left: 10px;
+}
+
+#hosted_on {
+  float: right;
+  margin-right: 10px;
+}
+
+.speakerList{
+  padding-top: 10px;
+}
+
+.speakerList .speaker{
+  padding-bottom: 10px;
+  display: block;
+  min-height: 160px;
+}
+
+.speakerList .speaker .image{
+  padding-right: 10px;
+  display: inline-block;
+  float: left;
+  width: 160px;
+}
+
+.speakerList .speaker .image img{
+  width: 160px;
+  height: 160px;
+  }
+
+.speakerList .speaker .info{
+  text-align: justify;
+  font-size: 0.8em;
+}
+
+.speakerList .speaker .title{
+  color: #E0186F;
 }
