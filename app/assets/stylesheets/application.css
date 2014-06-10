@@ -236,3 +236,14 @@ label {
 .speakerList .speaker .title{
   color: #E0186F;
 }
+
+.field.private label {
+    font-size: 15px;
+    display: inline-block;
+}
+.field.private input#registration_private {
+    margin-left: 8px;
+    margin-bottom: 6px;
+    width: 15px;
+    height: 15px;
+}

@@ -13,7 +13,13 @@
     <% @registrations.each do |registration| %>
       <tr>
         <td><%= registration.name %></td>
-        <td><%= registration.email %></td>
+        <td>
+          <% if registration.private? %>
+            <em>Not public</em>
+          <% else %>
+            <%= registration.email %>
+          <% end %>
+        </td>
         <td><%= registration.tickets %></td>
       </tr>
     <% end %>
