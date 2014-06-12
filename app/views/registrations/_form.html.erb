@@ -14,15 +14,20 @@
   <div class="field">
     <%= f.label :name, "Name*" %>
     <%= f.text_field :name %>
-  </div></br>
+  </div><br/>
   <div class="field">
     <%= f.label :email, "Email*" %>
     <%= f.text_field :email %>
-  </div></br>
+  </div><br/>
+
+  <div class="field private">
+    <%= f.label :private, "Mark email as private" %>
+    <%= f.check_box :private %>
+  </div><br/>
   <div class="field">
     <%= f.label :tickets, "Tickets*" %>
     <%= f.select :tickets, [['1'],['2'],['3'], ['4'] , ['5'], ['6'],['7'],['8'],['9'],['10']] %>
-  </div></br>
+  </div><br/>
   <div class="actions">
     <%= f.submit "Register", :class => "btn_onward" %>
   </div>
