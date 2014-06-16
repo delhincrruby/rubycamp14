@@ -8,6 +8,9 @@ class RubycampController < ApplicationController
   def schedule
   end
 
+  def speakers
+  end
+
   def sponsors
   end
 
