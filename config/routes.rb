@@ -7,6 +7,7 @@ Rubycamp::Application.routes.draw do
   get "rubycamp/sponsors"
   get "rubycamp/venue"
   get "rubycamp/speakers"
+  get "rubycamp/cfp"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
